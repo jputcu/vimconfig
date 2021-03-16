@@ -21,6 +21,10 @@ set shiftwidth=2
 set nobackup
 set nowritebackup
 
+" Searching
+set ignorecase
+set smartcase
+
 
 " quit if NERDTree is last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
