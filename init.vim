@@ -5,7 +5,7 @@ if has('win32') || has('win64')
 	set shell=cmd.exe\ C:\\msys64\\msys2_shell.cmd\ -defterm\ -no-start\ -mingw64
 endif
 
-call plug#begin('~/AppData/Local/nvim/plugged')
+call plug#begin()
 " A file explorer side bar
 Plug 'preservim/nerdtree'
 " Informative status bar
