@@ -10,8 +10,8 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 Plug 'preservim/nerdtree'
 " Informative status bar
 Plug 'itchyny/lightline.vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
 
