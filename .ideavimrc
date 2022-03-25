@@ -1,2 +1,2 @@
-set ignorecase
-set smartcase
+source ~/.vimrc
+

@@ -1,10 +1,12 @@
 Clone to `~\AppData\Local\nvim` for Windows and `~/.config/nvim` on linux.
 
+Use the common **~/.vimrc**.
+
 Clion
 =====
 
 https://www.jetbrains.com/help/idea/using-product-as-the-vim-editor.html
-On Windows `$HOME/.ideavimrc`.
+On Windows `$HOME/.ideavimrc`, just let it source `~/.vimrc`.
 
 FZF
 ===
@@ -20,4 +22,9 @@ sudo snap install core
 sudo snap install nvim --classic
 # sudo apt remove nvim 
 ~~~~
+
+Atmel Studio
+============
+
+Uses `~/.vimrc` with the vsvim plugin.
 
