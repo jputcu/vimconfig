@@ -26,5 +26,5 @@ sudo snap install nvim --classic
 Atmel Studio
 ============
 
-Uses `~/.vimrc` with the vsvim plugin.
+Add the VsVim plugin and configure it to use `~/.vsvimrc` due to some unsupported options.
 
