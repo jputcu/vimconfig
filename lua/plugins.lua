@@ -19,6 +19,8 @@ return require('packer').startup(function()
   		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+  use 'sbdchd/neoformat'
+
 	-- Automatically set up your configuration after cloning packer.nvim
   	-- Put this at the end after all plugins
   	if packer_bootstrap then
