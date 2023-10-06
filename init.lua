@@ -1,5 +1,4 @@
 vim.cmd("source ~/.vimrc")
-vim.opt.guifont = 'Consolas:h10'
 vim.opt.mouse = 'a'
 
 require('plugins')
