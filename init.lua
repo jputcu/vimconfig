@@ -11,3 +11,7 @@ vim.cmd([[
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 ]])
 
+-- On windows copy win32yank 0.1.1 in the system32 directory.
+-- On Linux install xclip
+vim.opt.clipboard = "unnamedplus"
+
